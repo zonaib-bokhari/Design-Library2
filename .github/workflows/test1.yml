@@ -19,7 +19,9 @@ jobs:
       with:
           node-version: '10.x'
     - name: change directory
-      run: cd FF-Design-Library
+      run: |
+        cd FF-Design-Library
+        dir
     - name: install
       run: npm install
     - name: prod build
