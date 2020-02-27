@@ -22,6 +22,8 @@ jobs:
       run: |
         cd FF-Design-Library
         dir
+    - name: deploy
+      uses: zonaib-bokhari/Design-Library@releases/v2
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master
