@@ -15,6 +15,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+    - name: install
+      run: npm install
     - name: prod build
       run: |
         ng build --prod --base-href https://zonaib-bokhari.github.io/Design-Library/
