@@ -32,5 +32,7 @@ jobs:
         BRANCH: gh-pages
         FOLDER: FF-Design-Library/dist
     - name: directory listing
-      run: ls
+      run: |
+        cd FF-Design-Library
+        ls
     
