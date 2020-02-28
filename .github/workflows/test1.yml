@@ -32,7 +32,7 @@ jobs:
         BASE_BRANCH: master
         BRANCH: gh-pages
         FOLDER: FF-Design-Library/dist
-    - name: directory listing
+    - name: directory listing task
       run: |
         cd FF-Design-Library
         ls
